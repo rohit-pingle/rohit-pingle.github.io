@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rohit's Portfolio</title>
+    <style>
+        body {
+            background-color: #f0f0f0; /* Light gray background */
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+        .section h2 {
+            margin-top: 0;
+        }
+        .project {
+            margin-bottom: 20px;
+            border: 1px solid #ddd; /* Light border for projects */
+            padding: 10px;
+            border-radius: 5px;
+
+        }
+        .project img {
+            max-width: 200px; /* Adjust image size as needed */
+            float: left; /* Image on the left */
+            margin-right: 20px;
+             border-radius: 5px;
+        }
+         .project h3{
+             margin-top: 0;
+         }
+        .project::after { /* Clearfix for floating image */
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="section" id="about">
+            <h2>Hello! I'm Rohit</h2>
+            <p>I'm a Mechanical Engineering Graduate from MVP's KBT College Of Engineering, Currently a production supervisor at CEAT Ltd. I manage the daily complexities of manufcturing from shift schedules to overseeing inventory and supply chains, I ensure that production goals are met through organized managements and technical expertise.  </p>
+            
+        </div>
+
+        <div class="section" id="projects">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <div class="project-images">
+                    <img src="static/POWP1.jpg" alt="Project 1">
+                    <img src="static/POWP2.jpg" alt="Project 1">
+                </div>
+                <div class="project-content">  <h3></h3>
+                    <p>Engineered a pedal-powered water purification system specifically calibrated to provide the consistent torque required to actuate a peristaltic pump via rotary motion.</p>
+                    <p>Achieved a consistent discharge flow rate of 0.6 Liters/Minute at a 60 RPM pedaling cadence, balancing physical effort with filtration efficiency.</p>        
+                    <p>Integrated a dual-stage filtration assembly consisting of a sediment filter and a turbidity filter, ensuring the removal of suspended solids and physical impurities.</p>
+                </div>
+            </div>
+
+
+        <p></p>
+
+           
+
+            <div class="project">
+                <img src="static/pc_fan.jpg" alt="Project 2"> 
+                <img src="static/rotor.jpg" alt="Project 2"> 
+                <p>Designed and modeled a rotating PC fan in SolidWorks, focusing on accurate representation of blade geometry and rotational motion.</p>
+                <p>Also developed a detailed 3D model of a DC motor rotor, Successfully captured the complex geometry, including the core laminations, windings, and commutator.</p>
+            </div>
+            
+
+        </div>
+
+
+            <div class="section" id="contact">  <h2>Contact</h2>
+                <p> Email: <a href="mailto:rohitdpingle@gmail.com">rohitdpingle@gmail.com</a><br>
+            </div>
+            
+    </div>
+</body>
+</html>
